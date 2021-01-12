@@ -24,7 +24,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQj-S6-dTZ">
-                                <rect key="frame" x="129.5" y="562.5" width="155" height="155"/>
+                                <rect key="frame" x="175" y="562.5" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Yd2-2z-HGD"/>
+                                    <constraint firstAttribute="width" constant="64" id="lCX-vn-fhP"/>
+                                </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CvX-UM-5rf"/>
