@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M0-Nf-QCy">
-                                <rect key="frame" x="182.5" y="433" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M0-Nf-QCy">
+                                <rect key="frame" x="183" y="432" width="49" height="31"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Record"/>
@@ -51,12 +51,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="recordButton" destination="4M0-Nf-QCy" id="Zv3-O9-ojL"/>
                         <outlet property="recordingLabel" destination="bmn-yw-45C" id="8se-4x-mWB"/>
+                        <outlet property="stopRecordingButton" destination="BQj-S6-dTZ" id="RHD-0m-jRA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="78"/>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
         </scene>
     </scenes>
     <resources>
