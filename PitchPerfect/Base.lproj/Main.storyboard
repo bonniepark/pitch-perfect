@@ -32,6 +32,7 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CvX-UM-5rf"/>
+                                    <segue destination="dhi-Xh-Vbc" kind="show" id="hnX-ZM-dDG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmn-yw-45C">
@@ -62,6 +63,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="77.678571428571431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fuz-as-UyC">
+            <objects>
+                <viewController id="dhi-Xh-Vbc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XjB-u9-Svg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="njl-Lb-fcq"/>
+                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IPj-nT-g5p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9N-Sy-35k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842" y="78"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="X4N-mY-61t">
