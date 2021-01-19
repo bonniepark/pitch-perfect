@@ -162,9 +162,9 @@
                         <outlet property="echoButton" destination="Qt4-Rk-byS" id="H5e-C0-PcE"/>
                         <outlet property="rabbitButton" destination="bU1-En-25C" id="4Di-qF-MwN"/>
                         <outlet property="reverbButton" destination="MaV-KC-Ltu" id="0Wb-as-cw0"/>
-                        <outlet property="snailButton" destination="wd5-NW-psJ" id="IP3-qY-IjE"/>
-                        <outlet property="stopButton" destination="o01-0I-riP" id="BPe-tr-G6U"/>
-                        <outlet property="vaderButton" destination="R3P-9c-b45" id="MM3-z8-uI0"/>
+                        <outlet property="snailButton" destination="wd5-NW-psJ" id="vlw-Xt-WeP"/>
+                        <outlet property="stopButton" destination="o01-0I-riP" id="tnF-p6-9UW"/>
+                        <outlet property="vaderButton" destination="R3P-9c-b45" id="jI6-mi-93f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9N-Sy-35k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
